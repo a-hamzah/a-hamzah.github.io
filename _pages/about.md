@@ -7,13 +7,13 @@ subtitle: <a href='#'>Affiliations</a>. Roboticist, Educationist, IoT Developer
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>Department of Robotics and AI</p>
-    <p>National University of Sciences and Technology</p>
+    <p>National University of Sciences and Technology (NUST),</p>
     <p>Islamabad, Pakistan</p>
 
-news: true # includes a list of news items
+news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
