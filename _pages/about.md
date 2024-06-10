@@ -10,11 +10,11 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Department of Robotics and AI</p>
-    <p>School of Mechanical and Manufacturing Engg</p>
+    <p>National University of Sciences and Technology</p>
     <p>Islamabad, Pakistan</p>
 
 news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
