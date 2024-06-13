@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Line Following Using State Machine in Webots
+description: Basic line following algorithm implementation using state machines in webots
+img: assets/img/12.png
 importance: 1
 category: work
 related_publications: true
