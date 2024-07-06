@@ -29,23 +29,3 @@ xq = [2.5 3 3.5]
 %function in command window and put xq as query point
 xv = interp1(a,b,xq)
 ```
-
-## Q-1 (Part-b)
-
-The solution of Q # 1 (Part-b) is provided below.
-
-1. first
-2. second
-3. third
-
-## Q-2
-
-The solution of Q # 2 is provided below.
-
-## Q-3
-
-The solution of Q # 3 is provided below.
-
-## Q-4
-
-The solution of Q # 4 is provided below.
