@@ -9,16 +9,7 @@ giscus_comments: true
 ---
 
 The robot rotates at a point initially until it finds an aruco marker in camera. Once an aruco marker is detected, the robot moves towards
-it and stops when it reaches a certain distance from the aruco marker. This project uses opencv library, ros and webots simulator.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+it and stops when it reaches a certain distance from the aruco marker. This project uses opencv library, ros and webots simulator.-
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
