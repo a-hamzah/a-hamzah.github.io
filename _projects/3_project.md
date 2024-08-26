@@ -10,7 +10,7 @@ category: work
 
 Argos Multi-Robot simulator is a light weight simulator that is used for swarm robotics. Here, I have implemented two codes:
 1. Boundry Following Script using state machine
-2. Multi-Robot obstaclea avoidance
+2. Multi-Robot obstacle avoidance
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
