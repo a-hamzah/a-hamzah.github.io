@@ -1,15 +1,15 @@
 ---
 layout: page
-title: Line Following Using State Machine in Webots
-description: Basic line following algorithm implementation using state machines in webots
-img: assets/img/12.jpg
-importance: 1
+title: Computer Vision with Aruco Tags in Webots
+description: The project is a combination of computer vision with ros in webots simulator.
+img: assets/img/3.jpg
+importance: 2
 category: work
-related_publications: true
+giscus_comments: true
 ---
 
-For the description of the project and to run it on your computer, check github readme file. The file contains things needed to run it.
-changes updated.
+The robot rotates at a point initially until it finds an aruco marker in camera. Once an aruco marker is detected, the robot moves towards
+it and stops when it reaches a certain distance from the aruco marker. This project uses opencv library, ros and webots simulator.-
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -34,8 +34,8 @@ changes updated.
     This image can also have a caption. It's like magic.
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
+You can also put regular text between your rows of images.
+Say you wanted to write a little bit about your project before you posted the rest of the images.
 You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
 <div class="row justify-content-sm-center">
