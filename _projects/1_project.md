@@ -3,7 +3,7 @@ layout: page
 title: Computer Vision with Aruco Tags in Webots
 description: The project is a combination of computer vision with ros in webots simulator.
 img: assets/img/3.jpg
-importance: 2
+importance: 1
 category: work
 giscus_comments: true
 ---
