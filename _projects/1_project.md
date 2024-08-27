@@ -9,6 +9,8 @@ related_publications: true
 ---
 
 For the description of the project and to run it on your computer, check github readme file. The file contains things needed to run it.
+changes updated.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
