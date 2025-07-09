@@ -5,7 +5,7 @@ description: The project is a combination of computer vision with ros in webots 
 img: assets/img/3.jpg
 importance: 1
 category: work
-giscus_comments: true
+giscus_comments: false
 ---
 
 The robot rotates at a point initially until it finds an aruco marker in camera. Once an aruco marker is detected, the robot moves towards

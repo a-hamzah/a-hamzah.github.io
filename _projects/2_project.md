@@ -9,7 +9,7 @@ giscus_comments: false
 ---
 
 The robot rotates at a point initially until it finds an aruco marker in camera. Once an aruco marker is detected, the robot moves towards
-it and stops when it reaches a certain distance from the aruco marker. This project uses opencv library, ros and webots simulator.-
+it and stops when it reaches a certain distance from the aruco marker. This project uses opencv library, ros and webots simulator. The demonstration is also available on youtube.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
