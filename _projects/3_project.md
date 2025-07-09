@@ -1,15 +1,15 @@
 ---
 layout: page
-title: Argos Multi-Robot Simulator Projects
-description: Obstacle avoidance and boundry following using state machines in argos multi robot simulator
-img: assets/img/7.jpg
+title: Computer Vision with Aruco Tags in Webots
+description: The project is a combination of computer vision with ros in webots simulator.
+img: assets/img/3.jpg
 importance: 3
 category: work
+giscus_comments: false
 ---
 
-Argos Multi-Robot simulator is a light weight simulator that is used for swarm robotics. Here, I have implemented two codes:
-1. Boundry Following Script using state machine
-2. Multi-Robot obstacle avoidance
+The robot rotates at a point initially until it finds an aruco marker in camera. Once an aruco marker is detected, the robot moves towards
+it and stops when it reaches a certain distance from the aruco marker. This project uses opencv library, ros and webots simulator. The demonstration is also available on youtube.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
