@@ -7,25 +7,10 @@ nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+## Weekly Update (05-08-2025)
 
-Organize your courses by years, topics, or universities, however you like!
-
-## Q-1 (Part-a)
-
-The solution of Q # 1 (Part-a) is provided below.
-
-```markdown
-x0=2;
-y0=1/x0;
-x1=2.75;
-y1=1/x1;
-x2=4;
-y2=1/x2;
-a = [x0 x1 x2];
-b = [y0 y1 y2];
-xq = [2.5 3 3.5]
-%to find the interpolation at a certain point, write the given below
-%function in command window and put xq as query point
-xv = interp1(a,b,xq)
-```
+In the last meeting held on 29-Jul-2025, the software tools were discussed for the implementation part of my thesis. Since the, I have formally started working on the implementation. Here are the key points of my work since last meeting:
+1. Installation of Ubuntu 24.04 LTS
+2. Installation of ROS 2 Jazzy Jalisco
+3. Installation of Gazebo Sim Harmonic
+4. Creation of a Gazebo Environment (In progress)
