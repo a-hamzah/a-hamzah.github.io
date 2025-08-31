@@ -53,3 +53,18 @@ A few more screenshots.
 <div class="caption">
     E-Puck robot in webots world (different pov).
 </div>
+
+<div class="row mt-4">
+    <div class="col-sm mt-3 mt-md-0">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item rounded z-depth-1" 
+                src="https://youtu.be/7aNl8QQyEZs?si=1B_9p5MCP3KdhyDY" 
+                title="YouTube video" 
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+</div>
+<div class="caption">
+    Demo video of the project.
+</div>
