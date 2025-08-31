@@ -56,10 +56,14 @@ A few more screenshots.
 
 <div class="row mt-4">
     <div class="col-sm mt-3 mt-md-0">
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item rounded z-depth-1" 
-                src="https://youtu.be/7aNl8QQyEZs?si=1B_9p5MCP3KdhyDY" 
-                title="YouTube video" 
+        <div class="ratio ratio-16x9"> <!-- keeps video responsive -->
+            <iframe 
+                class="rounded z-depth-1"
+                src="https://www.youtube.com/embed/7aNl8QQyEZs?si=1B_9p5MCP3KdhyDY" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
                 allowfullscreen>
             </iframe>
         </div>
