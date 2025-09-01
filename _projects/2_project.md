@@ -2,7 +2,7 @@
 layout: page
 title: Differential Drive Robot with ROS2 Humble
 description: The project uses ROS framework to move to a certain point in a factory world.
-img: assets/img/3.jpg
+img: assets/img/project2/3.jpg
 importance: 2
 category: work
 giscus_comments: false
