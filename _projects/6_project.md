@@ -9,6 +9,8 @@ category: fun
 
 For the description of the project and to run it on your computer, check github readme file.
 
+**GitHub Link**: [link](https://github.com/a-hamzah/webots_simulator_projects/tree/main/line-follower-webots)
+
 
 The screenshots from the project can be seen below.
 
