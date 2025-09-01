@@ -3,7 +3,7 @@ layout: page
 title: Obstacle Avoidance Using E-Puck in Webots Simulator
 description: Implementation of a basic obstacle avoidance algorithm using proximty sensors
 img: assets/img/project4/1.png
-importance: 3
+importance: 4
 category: fun
 ---
 
