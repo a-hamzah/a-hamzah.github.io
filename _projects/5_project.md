@@ -1,80 +1,75 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
+title: Clover Quadcopter Auto Flight Test in ROS+Gazebo
+description: This projects is all about using the autoflight test of Clover Drone.
+img: assets/img/project5/1.png
+importance: 4
 category: fun
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+In this experiment, I worked with the Coex Clover platform—an educational quadcopter that runs on ROS and provides both real hardware and simulation support. The goal of the experiment was to test autonomous flight using the Gazebo simulation environment.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+**Tools and Setup**
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Robot Platform: Coex Clover (ROS-based quadcopter)
+
+Simulation Environment: Gazebo, which provides a 3D physics-based environment for UAV testing.
+
+ROS Packages: Clover simulation stack including flight control and visualization nodes.
+
+Flight Controller (simulated): PX4 autopilot integrated with the ROS–Gazebo simulation.
+
+**Experiment Procedure**
+
+- Simulation Launch
+The Clover quadcopter model was launched in Gazebo with its standard simulation world. This provided access to realistic physics, sensors, and flight dynamics.
+
+- Autonomous Flight Test Node
+I executed the auto flight test node, which sends pre-programmed waypoints and commands to the quadcopter. The node interacts with the ROS flight stack, simulating real-world autonomous flight missions such as takeoff, waypoint navigation, hovering, and landing.
+
+- ROS–Gazebo Interaction
+The quadcopter’s motion and sensor feedback were visualized in Gazebo, while ROS topics and services provided live data exchange between the autopilot, mission planner, and simulation environment.
+
+**Results and Observations**
+
+The quadcopter successfully executed an autonomous flight mission following the commands from the test node.
+
+The simulation validated the interaction between ROS nodes, PX4 flight control, and Gazebo physics.
+
+The experiment demonstrated how Clover can be used as a learning platform for UAV autonomy, mission scripting, and ROS-based control.
+
+The screenshots from the project can be seen below.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project5/1.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project5/2.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project5/3.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    The screenshots are taken from the project.
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+
+<div class="row mt-4">
+  <div class="col-12"> <!-- full width column -->
+    <div class="ratio ratio-16x9"> <!-- responsive video -->
+      <iframe 
+        src="https://www.youtube.com/embed/POXzgDMQpYY?si=UIsLAawKYhBeSQf6"
+        title="YouTube video player"
+        class="rounded z-depth-1 w-100 h-100"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+      </iframe>
     </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
-```
-
-{% endraw %}
+<div class="caption">
+  Demo video of the project.
+</div>
