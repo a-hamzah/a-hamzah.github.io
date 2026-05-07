@@ -2,14 +2,12 @@
 layout: page
 title: Humanoid Robot for Reinforcement Learning
 description: Design and development of a humanoid robot for reinforcement learning experiments
-img: assets/img/project7/1.jpg
+img: assets/img/project7/thumbnail.png
 importance: 7
 category: work
 ---
 
 This project is about building a humanoid robot from simulation to hardware. The simulation is done in pybullet with a urdf designed in solidworks. Later, the 3d printed humanoid is built using bus servo motors, arduino and a custom servo board. The API provided by the Hiwonder is used to control motors and develop gait sequence.
-
-**DEMO VIDEO**: [link](https://youtube.com/shorts/JdMqxrvbp4E?si=1pgK94r7AsijVztX)
 
 **Hardware Architecture**
 
