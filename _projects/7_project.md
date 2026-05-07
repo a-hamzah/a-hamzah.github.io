@@ -2,7 +2,7 @@
 layout: page
 title: Humanoid Robot for Reinforcement Learning
 description: Design and development of a humanoid robot for reinforcement learning experiments
-img: assets/img/project7/1.png
+img: assets/img/project7/1.jpg
 importance: 7
 category: work
 ---
