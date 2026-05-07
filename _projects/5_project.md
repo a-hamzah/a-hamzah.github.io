@@ -4,7 +4,7 @@ title: Clover Quadcopter Auto Flight Test in ROS+Gazebo
 description: This projects is all about using the autoflight test of Clover Drone.
 img: assets/img/project5/1.jpg
 importance: 5
-category: fun
+category: work
 ---
 
 In this experiment, I worked with the Coex Clover platform—an educational quadcopter that runs on ROS and provides both real hardware and simulation support. The goal of the experiment was to test autonomous flight using the Gazebo simulation environment.

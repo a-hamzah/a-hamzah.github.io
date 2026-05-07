@@ -4,7 +4,7 @@ title: Obstacle Avoidance Using E-Puck in Webots Simulator
 description: Implementation of a basic obstacle avoidance algorithm using proximty sensors
 img: assets/img/project4/1.png
 importance: 4
-category: fun
+category: work
 ---
 
 The e-puck robot is a small, differential-wheeled mobile robot designed for education and research in robotics. It is equipped with various sensors, including proximity sensors, cameras, and accelerometers, making it suitable for tasks like obstacle avoidance, line following, and swarm robotics. This robot is a complete package for the developers with a lot of sensors and libraries to get into robotics.

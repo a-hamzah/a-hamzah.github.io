@@ -4,7 +4,7 @@ title: Line Following Using State Machine in Webots
 description: Basic line following algorithm implementation using state machines in webots
 img: assets/img/project6/1.png
 importance: 6
-category: fun
+category: work
 ---
 
 For the description of the project and to run it on your computer, check github readme file.
